@@ -1,0 +1,178 @@
+#about img {
+    width: 100px;
+    height: 100px;;
+   
+}
+#about-info {
+    min-height: 10vh;
+   
+   
+}
+.p-5 {
+  background: linear-gradient(to right, hsl(244, 100%, 75%), hsl(189, 86%, 72%)); 
+margin-top: 10px;
+
+
+}
+
+#about #background {
+    padding: 100px;
+}
+
+#carton {
+    background: linear-gradient(to right, hsl(268, 100%, 50%), hsl(192, 94%, 66%));
+  
+}
+
+
+#carton .box {
+    margin-top: 10px;
+    width: 300px;
+ 
+}
+
+#carton .text {
+  text-align: justify;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  
+}
+
+#carton img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+#carton .icons {
+    font-size: 20px;
+}
+
+
+.footer_section .footer-info {
+    text-align: center;
+  }
+
+
+.footer_section .footer-info p {
+    color: #f7f5a7;
+    margin: 0;
+}
+
+.footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+/*  */
+
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(0.4);
+    }
+}
+  
+  @-webkit-keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+@keyframes html {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 70%;
+  }
+}
+@keyframes php {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 35%;
+  }
+}
+@keyframes javascript {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 50%;
+  }
+}
